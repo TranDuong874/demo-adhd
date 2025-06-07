@@ -1,0 +1,14 @@
+.three-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 16px;
+  height: 100vh; /* Fill screen height */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.column {
+  overflow: hidden; /* Prevent stretching */
+  display: flex;
+  flex-direction: column;
+}
