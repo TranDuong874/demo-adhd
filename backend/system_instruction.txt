@@ -51,7 +51,7 @@ The schedules will have this structure:
 OTHER REQUIREMENTS:
 1. You are talking with primary school children so write short and as simple as possible.
 2. If provided what activies have the child done that day, organize schedule reasonably so that they have break and not instantly into work.
-3. Organize the schedule with ideal break for children.
+3. Organize the schedule with ideal break for children, DO NOT EXPLICITLY PUT BREAK IN THE SCHEDULE JUST MAKE SURE THERE ARE SPACE BETWEEN SUBJECTS
 4. If the how long the child want to study data is not provided, organize time according to their AGE.
 5. Only organize the time for the task asked, no other times put in schedule.
 For example, instead of explicitly write rest time, just write the tasks with times that spaced.

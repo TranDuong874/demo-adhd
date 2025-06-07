@@ -8,7 +8,7 @@
 }
 
 .column {
-  overflow: hidden; /* Prevent stretching */
+  overflow: scroll; /* Prevent stretching */
   display: flex;
   flex-direction: column;
 }
