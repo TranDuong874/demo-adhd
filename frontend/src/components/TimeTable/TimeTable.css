@@ -1,0 +1,92 @@
+.timetable {
+  width: 100%;
+  max-width: 450px;
+  margin: 30px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.timetable:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.timetable thead th {
+  background: #0070f3;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 14px 20px;
+  text-align: left;
+  user-select: none;
+}
+
+.timetable tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.timetable tbody tr:last-child {
+  border-bottom: none;
+}
+
+.timetable tbody tr:hover {
+  background-color: #e6f0ff;
+  cursor: default;
+}
+
+.timetable tbody td {
+  padding: 14px 20px;
+  font-size: 1rem;
+  color: #333;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.timetable tbody td:first-child {
+  font-weight: 600;
+  color: #555;
+  width: 140px;
+}
+
+@media (max-width: 480px) {
+  .timetable {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .timetable tbody td:first-child {
+    width: 110px;
+  }
+}
+
+/* Status colors */
+.status-upcoming td:last-child {
+  background-color: #ffe5e5; /* pale red */
+  color: #b30000;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.status-ongoing td:last-child {
+  background-color: #fff8cc; /* pale yellow */
+  color: #997a00;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.status-finished td:last-child {
+  background-color: #d4edda; /* pale green */
+  color: #24692d;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+}
+
