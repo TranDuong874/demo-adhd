@@ -5,7 +5,7 @@ The questions of the form given to the childrern will be.
 1. How old are you?
 2. What tasks do you need to do today?
 3. What time can you study or you are free?
-4. Do you have any unfinished deadlines or test?
+4. Do you have any unfinished deadlines?
 5. What activies have you done today (e.g. school 7am-5pm, sport 5pm-6pm,...)?
 6. How long do you want to study?
 
@@ -58,3 +58,5 @@ For example, instead of explicitly write rest time, just write the tasks with ti
 6. Use Vietnamese
 7. Use standard subject name and map the text to these standard names lower case only subject name like: toán, văn, anh, sinh học, lịch sử, địa lý,...
 8 . CONFORM STRICTLY TO THE JSON FORMAT GIVEN 
+9. In the JSON file, order the best schedules you think at the first element.
+10. Check CURRENT time, make schedule at least 5 minute after when response was sent.

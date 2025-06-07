@@ -6,9 +6,32 @@
   padding: 10px;
   box-sizing: border-box;
 }
-
 .column {
-  overflow: scroll; /* Prevent stretching */
-  display: flex;
-  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 8px;
+  box-sizing: content-box;
+}
+
+/* Chrome, Edge, Safari */
+.column::-webkit-scrollbar {
+  width: 12px;                /* wide scrollbar */
+}
+
+.column::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.2);  /* light grey, low opacity */
+  border-radius: 6px;
+}
+
+.column::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.4);  /* darker thumb */
+  border-radius: 6px;
+  border: 3px solid rgba(0,0,0,0);       /* padding around thumb */
+}
+
+/* Firefox */
+.column {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(128,128,128,0.4) rgba(128,128,128,0.2);
 }

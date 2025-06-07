@@ -1,6 +1,5 @@
 .timetable {
   width: 100%;
-  max-width: 450px;
   margin: 30px auto;
   border-collapse: separate;
   border-spacing: 0;
@@ -90,3 +89,108 @@
   border-radius: 6px;
 }
 
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+.status-ongoing {
+  background-color: #fff9e6;
+}
+
+.status-finished {
+  background-color: #e0ffe0;
+}
+
+.status-upcoming {
+  background-color: #f0f0f0;
+}
+
+.highlight-row {
+  outline: 2px solid #f39c12;
+  font-weight: bold;
+}
+
+.task-history {
+  margin-top: 2rem;
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;  /* Align left for all table cells */
+}
+
+.task-history table th, 
+.task-history table td {
+  text-align: left;
+}
+
+.task-history {
+  margin-top: 2rem;
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  max-height: 60vh; /* scrollable if too tall */
+  overflow-y: auto;
+  padding-bottom: 4rem; /* 👈 ensures button isn't clipped */
+  margin-bottom: 100px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* Optional: modern minimal scrollbar */
+.task-history::-webkit-scrollbar {
+  width: 8px;
+}
+.task-history::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.task-history::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+button {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #005ac1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.task-history button {
+  background-color: #10b981; /* green for "Finish Session" */
+}
+
+.task-history button:hover {
+  background-color: #0e9f6e;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 0,
+          "subject": "toán",
+          "startTime": "2025-06-03T09:00:00.000Z",
+          "endTime": "2025-06-03T09:45:00.000Z",
+          "duration": 45
+        },
+        {
+          "index": 1,
+          "subject": "văn",
+          "startTime": "2025-06-03T10:00:00.000Z",
+          "endTime": "2025-06-03T10:30:00.000Z",
+          "duration": 30
+        }
+      ]
+    }
+  },
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 0,
+          "subject": "lý",
+          "startTime": "2025-06-04T08:30:00.000Z",
+          "endTime": "2025-06-04T09:00:00.000Z",
+          "duration": 30
+        },
+        {
+          "index": 1,
+          "subject": "hóa",
+          "startTime": "2025-06-04T09:15:00.000Z",
+          "endTime": "2025-06-04T10:00:00.000Z",
+          "duration": 45
+        }
+      ]
+    }
+  },
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 0,
+          "subject": "địa lý",
+          "startTime": "2025-06-05T11:00:00.000Z",
+          "endTime": "2025-06-05T11:30:00.000Z",
+          "duration": 30
+        },
+        {
+          "index": 1,
+          "subject": "sinh",
+          "startTime": "2025-06-05T13:00:00.000Z",
+          "endTime": "2025-06-05T14:00:00.000Z",
+          "duration": 60
+        }
+      ]
+    }
+  },
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 0,
+          "subject": "toán",
+          "startTime": "2025-06-06T07:30:00.000Z",
+          "endTime": "2025-06-06T08:15:00.000Z",
+          "duration": 45
+        }
+      ]
+    }
+  },
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 0,
+          "subject": "anh",
+          "startTime": "2025-06-07T10:00:00.000Z",
+          "endTime": "2025-06-07T11:00:00.000Z",
+          "duration": 60
+        },
+        {
+          "index": 1,
+          "subject": "văn",
+          "startTime": "2025-06-07T11:15:00.000Z",
+          "endTime": "2025-06-07T12:00:00.000Z",
+          "duration": 45
+        }
+      ]
+    }
+  },
+  {
+    "session": {
+      "tasks": [
+        {
+          "index": 1,
+          "subject": "văn",
+          "startTime": "2025-06-07T10:00:42.004Z",
+          "endTime": "2025-06-07T10:00:49.484Z",
+          "duration": 7
+        },
+        {
+          "index": 2,
+          "subject": "anh",
+          "startTime": "2025-06-07T10:00:50.292Z",
+          "endTime": "2025-06-07T10:00:56.061Z",
+          "duration": 5
+        },
+        {
+          "index": 0,
+          "subject": "toán",
+          "startTime": "2025-06-07T10:00:59.301Z",
+          "endTime": "2025-06-07T10:01:04.997Z",
+          "duration": 5
+        }
+      ]
+    }
+  }
+]
